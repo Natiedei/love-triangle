@@ -13,6 +13,6 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
 		kol++;
 	}
   }
-  if (kol > 0) kol = kol / 3; 
-  return kol;
+ 
+  return kol / 3;
 };
